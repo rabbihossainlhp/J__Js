@@ -114,3 +114,26 @@ if(user_marks<33){
 }else{
     console.log('Make sure about your INPUT TYPE');
 }
+
+
+
+
+
+
+//Simple Practice of Conditioonal statements
+const user_1 = prompt('Enter the first number:');
+const user_2 = prompt('Enter the second number:');
+const oper = prompt('Select operator (+,-,*,/)');
+
+if(oper === '+'){
+    console.log(user_1+user_2);
+}else if(oper === '-'){
+        console.log(user_1-user_2);
+}else if(oper === '*'){
+    console.log(user_1*user_2);
+}else if(oper === '/'){
+    console.log(user_1/user_2);
+}else{
+    console.log('Please ensure your input type');
+}
+// it is working
