@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+}
+
+
+
+/*
+This in new design from here
+*/
+body{
+    text-align: center;
+}
+
+#button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(13, 223, 153);
+    cursor: pointer;
+    
+
+}
+.box_design{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(96, 137, 90);
+    margin-left: 20%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_box{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    
+}
+.team{
+    position: relative;
+    top: -160px;
+    right: -30px;
+    cursor: pointer;
+    font-size: 44px;
+}
+.icon{
+    font-size: 44px;
+    margin-right: 20px;
+    color: yellow;
+}
+
+/*
+Change the theam from here*/
+.dark{
+    background-color: black;
+}
+.light{
+    border-color: white;
+}
